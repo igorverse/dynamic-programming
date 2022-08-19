@@ -13,17 +13,17 @@
  */
 
 // brute-force approach: O(nˆm) time complexity and O(m) space complexity
-// function canSum(targetSum, numbers) {
-//   if (targetSum === 0) return true
-//   if (targetSum < 0) return false
+function _canSum(targetSum, numbers) {
+  if (targetSum === 0) return true
+  if (targetSum < 0) return false
 
-//   for (const number of numbers) {
-//     const remainder = targetSum - number
-//     if (canSum(remainder, numbers)) return true
-//   }
+  for (const number of numbers) {
+    const remainder = targetSum - number
+    if (canSum(remainder, numbers)) return true
+  }
 
-//   return false
-// }
+  return false
+}
 
 // Dynamic programming approach: O(n*m) time complexity and O(m) space complexity
 // where m is the target sum and n is the array length

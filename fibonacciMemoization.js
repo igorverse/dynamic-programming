@@ -15,8 +15,7 @@ fib(6) = 5
 */
 
 // classical approach: O(2ˆn) time complexity and O(n) space complexity
-
-function nthFibonacci(n) {
+function _nthFibonacci(n) {
   if (n <= 1) return 0
   if (n === 2) return 1
 
