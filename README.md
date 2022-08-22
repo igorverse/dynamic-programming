@@ -12,3 +12,5 @@ Building a solid base in Dynamic Programming to be able to solve complex dynamic
 - [x] Nth Fibonacci 
 - [x] Grid Traveler
 - [x] Can Sum
+- [x] How Sum
+- [x] Best Sum
