@@ -9,6 +9,9 @@ Building a solid base in Dynamic Programming to be able to solve complex dynamic
 1. https://www.youtube.com/watch?v=oBt53YbR9Kk&t=3351s
 
 ## Solved problems:
+
+### Using memoization technique:
+
 - [x] Nth Fibonacci 
 - [x] Grid Traveler
 - [x] Can Sum
