@@ -17,3 +17,7 @@ Building a solid base in Dynamic Programming to be able to solve complex dynamic
 - [x] Can Sum
 - [x] How Sum
 - [x] Best Sum
+
+### New goal:
+
+Complete the video exercises using Go.
